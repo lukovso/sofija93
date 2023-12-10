@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(32,28,28);
+}
+.inputSection{
+    height: 100px;
+    /* background-color: red; */
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+.navSection{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem 3rem 1rem;
+    font-size: 23px;
+}
+.navSection p{
+    cursor: pointer;
+}
+.navSection .logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.navSection .logo:hover{
+    color: rgb(01, 55, 102);
+
+}
+.navSection div{
+    display: flex;
+    column-gap: 2rem;
+}
+.divNavigation p:hover{
+    color: rgb(01, 55, 102);
+}
+.mainSection{
+    width: 22%;
+    height: 200px;
+    background-color: rgb(16, 15,16);
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    padding: .5rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainSection h4{
+    color: red;
+}
+.mainSection img{
+    width: 100px;
+    height: 100px;
+}
+.input{
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+}
+.input input{
+    padding: .5rem;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+.input button{
+    padding: .5rem;
+    border-radius: 5px;
+    margin-left: .5rem;
+    width: 100px;
+    cursor: pointer;
+}
+.divLoader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+.divLoader div{
+    background-color: #ff9f1a;
+    width: 16px;
+    height: 32px;
+    margin-left: 10px;
+    animation: loader 1.2s infinite;
+}
+@keyframes loader{
+    50%{
+        height: 64px;
+    }
+}
+.divLoader .loader1{
+    background-color: #ff9f1a;
+    animation-delay: -0.40s;
+}
+.divLoader .loader2{
+    background-color: #efd330;
+    animation-delay: -0.20s;
+}
+.divLoader .loader3{
+    background-color: #fffa65;
+    animation-delay: 0s;
+}
+.secMision{
+    color: white;
+    width: 32%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(16, 15,16);
+    border: 1px solid  rgb(16, 15,16);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    row-gap: 2rem;
+    cursor: pointer;
+    padding-top: 2rem;
+    
+}
+.secMision h1{
+    color: red;
+    font-size: 30px;
+}
+.secMision div{
+    font-size: 25px;
+}
+.secMision p{
+    font-size: 20px;
+    text-align: center;
+}
+.misionsSection{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+.secPayloads{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem;
+}
+.secPayloads h2{
+    color: red;
+}
+.secPayloads div{
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(16, 15,16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    height: 200px;
+    row-gap: .5rem;
+}
+.secRockets{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem;
+}
+.secRockets h1{
+    color: red;
+}
+.secRockets div{
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(16, 15,16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 450px;
+    row-gap: .5rem;
+    padding: 1rem;
+}
+.secRockets img{
+    width: 350px;
+    height: 200px;
+}
+.mainPage{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+    height: 85.5vh;
+    width: 100%;
+    background-image: url("img.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainPage h1:hover{
+    color: rgb(01, 55, 102);
+    cursor: pointer;
+}
